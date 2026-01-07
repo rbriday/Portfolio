@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+@import "tailwindcss";
+
+@theme {
+  --font-primary: "Playfair Display", serif;
+  --font-secondary: "Nunito", sans-serif;
+  
+  --color-primary:#132238;
+  --color-secondary:#556070;
+  --color-btn:#A53DFF;
+}
