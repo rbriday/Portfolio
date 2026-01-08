@@ -1,6 +1,7 @@
 import React from 'react';
 import Container from '../Layout/Container';
-import about from '../../assets/banner.png'
+// import about from '../../assets/banner.png'
+import about2 from '../../assets/about.jpg'
 
 const About = () => {
     return (
@@ -8,7 +9,7 @@ const About = () => {
             <Container>
                 <div className='flex justify-around items-center'>
                     <div className='w-134'>
-                        <img src= {about} alt="" />
+                        <img src= {about2} alt="" className='h-140 rounded-xl shadow-sm' />
                     </div>
                     <div className='w-134'>
                         <h2 className='font-primary font-semibold text-[38px] leading-12.5 text-primary mb-8'>I am Professional User Experience Designer</h2>

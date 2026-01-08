@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Container from '../Layout/Container';
-import bannerImg from '../../assets/about.png'
+// import bannerImg from '../../assets/about.png'
+import banner from '../../assets/photo.jpg'
 
 const Banner = () => {
     const [say, setSay] = useState(false);
@@ -18,12 +19,12 @@ const Banner = () => {
                         <button onClick={handleSayHlw} className="font-primary font-semibold text-[20px] bg-btn px-7 py-2 text-white rounded-lg cursor-pointer border-btn border-2 hover:border-btn hover:bg-transparent hover:text-btn transition-all decoration-2 delay-150 mt-7.5">Say hlw</button>
                     </div>
                     <div>
-                        <img src= {bannerImg} alt="#banner" />
+                        <img src= {banner} alt="#banner" className='h-125' />
                     </div>
                 </div>
                  {
                     say ? 
-                    <div className='absolute top-[200px] left-[50%] translate-[-50%] w-175 bg-[#ddd] px-12.5 py-12.5 flex flex-col justify-center items-center rounded-lg'>
+                    <div className='absolute top-50 left-[50%] translate-[-50%] w-175 bg-[#ddd] px-12.5 py-12.5 flex flex-col justify-center items-center rounded-lg'>
                     <h3 className='text-center font-primary font-semibold text-[30px] text-primary mb-5'>Say Hlw</h3>
                     <div className='w-125 mb-5'>
                         <input type="text" placeholder='Enter your name..' className='w-full border-2 border-btn px-5 py-2 outline-0 rounded-lg' />
@@ -39,7 +40,7 @@ const Banner = () => {
                     </div>
                 </div> 
                 : 
-                <div className='absolute top-[-400px] left-[50%] translate-[-50%] w-175 bg-[#ddd] px-12.5 py-12.5 flex flex-col justify-center items-center rounded-lg'>
+                <div className='absolute -top-100 left-[50%] translate-[-50%] w-175 bg-[#ddd] px-12.5 py-12.5 flex flex-col justify-center items-center rounded-lg'>
                     <h3 className='text-center font-primary font-semibold text-[30px] text-primary mb-5'>Say Hlw</h3>
                     <div className='w-125 mb-5'>
                         <input type="text" placeholder='Enter your name..' className='w-full border-2 border-btn px-5 py-2 outline-0 rounded-lg' />
