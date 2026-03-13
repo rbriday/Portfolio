@@ -5,13 +5,13 @@ const Navbar = () => {
   return (
     <div className="py-5">
       <Container>
-        <nav className="flex justify-between items-center">
+        <nav className="md:flex justify-between items-center">
           <div className="flex items-center">
             <div className="w-12.5 h-12.5 flex justify-center items-center bg-btn text-white font-bold text-[20px] rounded-full mr-5">R</div>
             <div className="font-semibold text-[32px] font-primary text-primary">Riday</div>
           </div>
           <div>
-            <ul className="flex items-center space-x-10 font-primary text-secondary text-[18px]">
+            <ul className="md:flex items-center space-x-10 font-primary text-secondary text-[18px]">
               <li>
                 <a href="#">Home</a>
               </li>

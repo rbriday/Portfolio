@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Container from '../Layout/Container';
-// import bannerImg from '../../assets/about.png'
+import { ImCross } from "react-icons/im";
 import banner from '../../assets/photo.jpg'
 
 const Banner = () => {
@@ -24,7 +24,8 @@ const Banner = () => {
                 </div>
                  {
                     say ? 
-                    <div className='absolute top-50 left-[50%] translate-[-50%] w-175 bg-[#ddd] px-12.5 py-12.5 flex flex-col justify-center items-center rounded-lg'>
+                    <div className='fixed top-50 left-[50%] translate-[-50%] w-175 bg-[#ddd] px-12.5 py-12.5 flex flex-col justify-center items-center rounded-lg'>
+                        <ImCross onClick={handleSayHlw} className='absolute top-[10%] right-[5%] text-2xl text-btn cursor-pointer' />
                     <h3 className='text-center font-primary font-semibold text-[30px] text-primary mb-5'>Say Hlw</h3>
                     <div className='w-125 mb-5'>
                         <input type="text" placeholder='Enter your name..' className='w-full border-2 border-btn px-5 py-2 outline-0 rounded-lg' />

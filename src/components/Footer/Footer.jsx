@@ -3,7 +3,7 @@ import Container from "../Layout/Container";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#2B384C] py-10 mt-15">
+    <footer className="bg-[#2B384C] py-8 mt-15">
       <Container>
         <div className="flex justify-between items-center">
           <div className="flex items-center">

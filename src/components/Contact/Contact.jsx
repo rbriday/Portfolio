@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <div className="pt-17.5">
       <Container>
-        <div className="flex justify-between">
+        <div className="flex justify-between items-center">
           <div className="w-125">
             <h4 className="font-primary font-semibold text-[38px] text-primary pb-4">Let’s discuss your Project</h4>
             <p className="font-secondary text-[18px] text-secondary">
@@ -60,15 +60,12 @@ const Contact = () => {
                 <div  className="w-12.5 h-12.5 bg-gray-300 text-btn rounded-sm flex items-center justify-center hover:bg-btn hover:text-white hover:shadow-sm transition decoration-2 cursor-pointer">
                 <FaInstagram  size={30}/>
                 </div>
-                {/* <div  className="w-12.5 h-12.5 bg-gray-300 text-btn rounded-sm flex items-center justify-center hover:bg-btn hover:text-white hover:shadow-sm transition decoration-2 cursor-pointer">
-                <FaFacebookF size={30}/>
-                </div> */}
+               
               </div>
             </div>
           </div>
           <div className="w-125">
             <div>
-              {/* <p className="font-secondary text-[18px] text-secondary">There are many variations of passages of Lorem Ipsu available, but the majority have suffered alte</p> */}
             </div>
             <div className="bg-gray-50 mt-15 p-8 rounded-xl shadow-sm">
                   <form action="">
@@ -77,15 +74,6 @@ const Contact = () => {
                     </div>
                     <div className="w-100 mt-5">
                       <input type="email" placeholder="Enter Your Email ..."  className="border-b-2 border-btn outline-0 py-2 px-2 w-full font-primary font-semibold text-[18px] text-primary rounded-sm "/>
-                    </div>
-                    <div className="w-100 mt-5">
-                      <input type="text" placeholder="Enter Your Location ..."  className="border-b-2 border-btn outline-0 py-2 px-2 w-full font-primary font-semibold text-[18px] text-primary rounded-sm"/>
-                    </div>
-                    <div className="w-100 mt-5">
-                      <input type="text" placeholder="Enter Your Budget ..."  className="border-b-2 border-btn outline-0 py-2 px-2 w-full font-primary font-semibold text-[18px] text-primary rounded-sm "/>
-                    </div>
-                    <div className="w-100 mt-5">
-                      <input type="text" placeholder="Enter Your Subject ..."  className="border-b-2 border-btn outline-0 py-2 px-2 w-full font-primary font-semibold text-[18px] text-primary rounded-sm"/>
                     </div>
                     <div className="w-100 mt-5">
                       <input type="text" placeholder="Enter Your Message ..."  className="border-b-2 border-btn outline-0 py-2 px-2 w-full font-primary font-semibold text-[18px] text-primary rounded-sm"/>
